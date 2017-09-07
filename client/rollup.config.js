@@ -16,7 +16,10 @@ export default {
             include: '**/*.html'
         }),
         json({
-            include: 'node_modules/**',
+            include: [
+                'node_modules/**',
+                'src/app/**'
+            ]
         }),
         postcss({
             extensions: ['.css'],
@@ -33,11 +36,11 @@ export default {
         babel({
             exclude: [
                 'node_modules/**',
-                '**/*.html'
+                '**/*.html',
+                '**/*.json'
             ]
         }),
         uglify()
     ],
-    sourceMap: true,
-    sourceMapFile: 'dist/app.js.map'
+    sourceMap: false
 };

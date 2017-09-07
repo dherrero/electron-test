@@ -31,10 +31,8 @@
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-json": "^2.3.0",
-    "rollup-plugin-livereload": "^0.4.0",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-postcss": "^0.4.1",
-    "rollup-plugin-serve": "^0.3.0",
     "rollup-plugin-string": "^2.0.2",
     "rollup-plugin-uglify": "^1.0.2",
     "rollup-watch": "^3.2.2"
@@ -48,7 +46,6 @@
     "angular-moment-picker": "^0.10.1",
     "angular-toastr": "1.7.0",
     "angular-translate": "2.10.0",
-    "angular-translate-loader-url": "2.10.0",
     "angular-ui-bootstrap": "^2.5.0",
     "angular-ui-router-anim-in-out": "^1.0.2",
     "bootstrap": "^3.3.7",
