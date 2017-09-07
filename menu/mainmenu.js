@@ -20,9 +20,16 @@ const template = [{
     {
         role: 'help',
         submenu: [{
-            label: 'Autor',
-            click() { require('electron').shell.openExternal('https://www.linkedin.com/in/daniel-herrero-tom%C3%A1s-7781b143/') }
-        }]
+                role: 'toggledevtools'
+            },
+            {
+                type: 'separator'
+            },
+            {
+                label: 'Autor',
+                click() { require('electron').shell.openExternal('https://www.linkedin.com/in/daniel-herrero-tom%C3%A1s-7781b143/') }
+            }
+        ]
     }
 ]
 
