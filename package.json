@@ -1,7 +1,7 @@
 {
-    "name": "electron-quick-start",
+    "name": "electron-test",
     "version": "1.0.0",
-    "description": "A minimal Electron application",
+    "description": "A minimal Electron application with installer",
     "main": "main.js",
     "scripts": {
         "postinstall": "install-app-deps",
@@ -9,7 +9,7 @@
         "pack": "build --dir",
         "dist": "build"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": "https://github.com/dherrero/electron-test",
     "keywords": [
         "Electron",
         "quick",
@@ -17,10 +17,9 @@
         "tutorial",
         "demo"
     ],
-    "author": "GitHub",
-    "license": "CC0-1.0",
+    "author": "dherrero",
     "build": {
-        "appId": "enupal-electronv1",
+        "appId": "test-electronv1",
         "asar": true,
         "dmg": {
             "contents": [{
