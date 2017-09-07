@@ -1,2 +1,1 @@
-# front structure from my other repo 
-[quickstart](https://github.com/dherrero/quickstart)
+### front structure from my other repo [quickstart](https://github.com/dherrero/quickstart)
