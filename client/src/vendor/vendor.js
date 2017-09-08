@@ -10,7 +10,7 @@ import * as _angularToastr from 'angular-toastr';
 import * as _angularTranslate from 'angular-translate';
 import * as _angularMoment from 'angular-moment';
 import * as _angularMomentPicker from 'angular-moment-picker';
-import * as _angularTranslateLoaderStaticFiles from 'angular-translate-loader-static-files';
+
 import * as _ngDialog from 'ng-dialog';
 import * as _angularBootstrap from 'angular-ui-bootstrap';
 
@@ -21,6 +21,6 @@ export const angularToastr = _angularToastr;
 export const angularTranslate = _angularTranslate;
 export const angularMoment = _angularMoment;
 export const angularMomentPicker = _angularMomentPicker;
-export const angularTranslateLoaderStaticFiles = _angularTranslateLoaderStaticFiles;
+
 export const ngDialog = _ngDialog;
 export const angularBootstrap = _angularBootstrap;

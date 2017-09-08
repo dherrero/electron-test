@@ -4,10 +4,10 @@
     "description": "Pruebas Electron",
     "main": "main.js",
     "scripts": {
-        "postinstall": "install-app-deps",
+        "postinstall": "install-app-deps && cd client && npm install",
         "start": "electron .",
         "pack": "build --dir",
-        "dist": "build"
+        "dist": "rm -fr dist && cd client && npm run pro && cd .. && build"
     },
     "repository": "https://github.com/dherrero/electron-test",
     "keywords": [
