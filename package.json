@@ -5,8 +5,8 @@
     "main": "main.js",
     "scripts": {
         "postinstall": "install-app-deps && cd client && npm install",
-        "start": "electron .",
-        "pack": "build --dir",
+        "start": "cd client && npm run pro && cd .. && electron .",
+        "pack": "rm -fr dist && cd client && npm run pro && cd .. && build --dir",
         "dist": "rm -fr dist && cd client && npm run pro && cd .. && build"
     },
     "repository": "https://github.com/dherrero/electron-test",
